@@ -36,7 +36,7 @@ const VehicleEditForm = ({ vehicle, onSubmit }: VehicleEditFormProps) => {
       className="mt-4"
       data-testid="vehicle-edit-form-container"
     >
-      <Row>
+      <Row xs={1} lg={2} className="mb-3">
         <Col>
           <Form.Group controlId="formBrand" className="mb-3 fw-bold">
             <InputLabel>Marca</InputLabel>
