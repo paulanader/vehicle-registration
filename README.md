@@ -33,3 +33,12 @@ ou
 ```
 yarn start
 ```
+
+Para test unitário, execute:
+```
+yarn test
+```
+ou
+```
+yarn test --coverage
+```
